@@ -454,10 +454,11 @@ main {
 
 footer {
   background-color: #f8f8f8;
+  margin-top: 180px;
 }
 
 footer > .container > .row {
-  margin-top: 180px;
+  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -662,7 +663,10 @@ footer > .container > .row {
   }
 
   footer > .container > .row > .left {
-    min-width: 50%;
+    min-width: 55%;
+  }
+  footer > .container > .row > .right {
+    min-width: 55%;
   }
 }
 
@@ -778,12 +782,14 @@ footer > .container > .row {
 
   footer {
     padding: 20px 0;
+    /* background-color: aqua!important; */
   }
 
   .subscription {
     margin-top: -180px;
     height: 400px;
     padding: 25px 40px;
+    
 }
 }
 
