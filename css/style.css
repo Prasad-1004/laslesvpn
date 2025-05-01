@@ -453,13 +453,12 @@ main {
 }
 
 footer {
-  background-color: #e00e0e;
+  background-color: #f8f8f8;
   margin-top: 180px;
   /* background-color: aqua; */
 }
 
 footer > .container > .row {
-  
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
@@ -476,7 +475,7 @@ footer > .container > .row {
   display: flex;
   /* flex-direction: column; */
   gap: 70px;
-  flex-basis: 50%;
+  flex-basis: 55%;
   flex-wrap: wrap;
 }
 
@@ -540,8 +539,7 @@ footer > .container > .row {
     position: relative;
   }
 
-  nav
-   {
+  nav {
     display: none;
     flex-basis: 100%;
     flex-direction: column;
@@ -666,9 +664,6 @@ footer > .container > .row {
   footer > .container > .row > .left {
     min-width: 55%;
   }
-  footer > .container > .row > .right {
-    min-width: 55%;
-  }
 }
 
 @media screen and (max-width: 965px) {
@@ -790,8 +785,14 @@ footer > .container > .row {
     margin-top: -180px;
     height: 400px;
     padding: 25px 40px;
-    
-}
+  }
+
+  footer > .container > .row > .right {
+    /* min-width: 55%; */
+    flex-basis: 100%;
+    text-align: center;
+    justify-content: center;
+  }
 }
 
 @media screen and (max-width: 425px) {
